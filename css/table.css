@@ -211,14 +211,14 @@ tr:nth-child(2n + 2) {
   margin-left: 0.5rem;
 }
 
-.pagination__functional .pagination__functional {
+.pagination__functional .pagination__functional__btn {
   padding: 1.5rem;
   cursor: pointer;
 }
-.pagination__functional .bi {
+.pagination__functional__btn .bi {
   color: var(--functional-text);
 }
 
-.pagination__functional__play--back {
+.pagination__functional__btn__play--back {
   transform: rotate(180deg);
 }
