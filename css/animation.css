@@ -88,12 +88,12 @@ html {
 .circle:nth-child(13) {
   bottom: 0rem;
   left: 30rem;
-  animation: transform2 2s linear 1.2s infinite;
+  animation: transform2 2s linear 1s infinite;
 }
 .circle:nth-child(14) {
   bottom: 0rem;
   left: 36rem;
-  animation: transform2 2s linear 1.4s infinite;
+  animation: transform2 2s linear 1.2s infinite;
 }
 
 @keyframes transform1 {
