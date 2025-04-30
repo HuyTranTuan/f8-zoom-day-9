@@ -13,13 +13,12 @@ html {
 .container {
   height: 20rem;
   width: 42rem;
-  /* background-color: blueviolet; */
   position: relative;
 }
 
 .circle {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   background-color: #000;
   position: absolute;
@@ -99,11 +98,11 @@ html {
 @keyframes transform1 {
   0%,
   100% {
-    transform: translateY(0rem) scale(0.8);
+    transform: translateY(0rem) scale(1.2);
     background-color: #000;
   }
   50% {
-    transform: translateY(18rem) scale(0.8);
+    transform: translateY(18rem) scale(1.2);
     background-color: #000;
   }
   25%,
@@ -121,22 +120,22 @@ html {
 @keyframes transform2 {
   0%,
   100% {
-    transform: translateY(0rem) scale(0.8);
-    background-color: red;
+    transform: translateY(0rem) scale(1.2);
+    background-color: royalblue;
   }
   50% {
-    transform: translateY(-18rem) scale(0.8);
-    background-color: red;
+    transform: translateY(-18rem) scale(1.2);
+    background-color: royalblue;
   }
   25%,
   75% {
     transform: translateY(-9rem) scale(0.2);
-    background-color: #fff;
+    background-color: darkseagreen;
   }
   15%,
   35%,
   65%,
   85% {
-    background-color: red;
+    background-color: royalblue;
   }
 }
