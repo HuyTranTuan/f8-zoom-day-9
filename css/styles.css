@@ -208,7 +208,8 @@ select {
   transition: color 0.1s ease;
 }
 .header__container ul li + li::before {
-  content: "/ ";
+  content: "/";
+  padding: 0.5rem;
 }
 
 .header__container ul li a {
@@ -252,6 +253,7 @@ select {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  display: block;
 }
 
 .info__contact {
@@ -430,6 +432,11 @@ select {
 .footer__item li a {
   line-height: 3rem;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.footer__item li a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
 }
 
 .footer__item--first,

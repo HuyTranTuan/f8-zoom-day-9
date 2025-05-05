@@ -1,0 +1,71 @@
+html {
+  font-size: 0.625rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+table,
+tr,
+td {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+table {
+  width: 80%;
+  border: 2px solid #000;
+  margin: 100px auto;
+  border-collapse: collapse;
+}
+
+thead tr:first-child th {
+  padding: 1rem 0 0.5rem;
+}
+thead tr:last-child th {
+  padding: 0.5rem 0 1rem;
+}
+
+tbody td:not([colspan]) {
+  text-align: right;
+}
+
+tbody tr:not(:has(td[colspan="3"])) {
+  border: 2px solid #000;
+}
+td:not([colspan="3"]) {
+  border: 1px solid #000;
+}
+
+td[colspan="5"],
+td[colspan="8"] {
+  border: 2px solid #000;
+}
+td[colspan="8"] {
+  width: 50%;
+}
+
+td[colspan="3"] {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+.td-total {
+  border-bottom: 2px solid #000;
+}
+
+.th-title,
+.td-title,
+.td-bold,
+.td-total,
+.td-title-behind {
+  font-weight: bold;
+}
+
+.td-title {
+  text-align: center;
+  vertical-align: middle;
+}
+.td-title-behind {
+  text-align: left;
+}
